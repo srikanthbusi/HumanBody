@@ -37,7 +37,7 @@
         let humanBody;
         const loader = new THREE.GLTFLoader();
         loader.load(
-            'scene.gltf', // Ensure correct path!
+            'https://raw.githubusercontent.com/srikanthbusi/HumanBody/refs/heads/main/scene.gltf', // Updated URL
             function (gltf) {
                 humanBody = gltf.scene;
                 humanBody.position.set(0, -1, 0); // Adjust position if needed
